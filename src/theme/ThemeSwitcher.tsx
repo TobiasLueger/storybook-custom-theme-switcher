@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useState } from "react";
 import { IconButton, Icons, WithTooltip } from "@storybook/components";
-import { DEFAULT_PARAMS, PARAM_THEME, TOOL_ID } from "../constants";
+import { DEFAULT_PARAMS, PARAM_THEME } from "../constants";
 import { getIframe, useTheme } from "./useTheme";
 import { useParameter } from "@storybook/api";
 
@@ -17,7 +17,7 @@ export const ThemeSwitcher = () => {
       );
   }, [])
 
-  const [selectedTheme, setSelectedTheme] = useState(`${Object.values(theme.themeOptions)[0]}`);
+  const [selectedTheme, setSelectedTheme] = useState(`Select Theme`);
 
   const handleTheme = (theme, themeOption) => {
       useTheme(theme, themeOption, selectedTheme);
