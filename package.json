@@ -1,6 +1,6 @@
 {
   "name": "storybook-custom-theme-switcher",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Theme switcher tool addon that changes the themes using CSS custom properties",
   "keywords": [
     "storybook-addons",
@@ -93,5 +93,8 @@
       "angular"
     ],
     "icon": "./paint-roller-fill.png"
+  },
+  "engines": {
+    "node": "~14.21.3"
   }
 }
