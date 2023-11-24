@@ -1,5 +1,7 @@
 # Storybook Custom Theme Switcher
 
+![Storybook custom theme switcher](storybook-custom-theme-switcher.gif?raw=true "Storybook addon theme switcher")
+
 This addon can be used to set a data attribute in Storybook's iframe HTML
 element triggering a toggle between your custom themes.
 

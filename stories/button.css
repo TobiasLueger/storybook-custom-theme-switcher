@@ -23,6 +23,7 @@
   line-height: 1;
   color: var(--white);
   background-color: var(--black);
+  border: 2px solid var(--white);
   font-size: 14px;
   padding: 11px 20px;
 }
