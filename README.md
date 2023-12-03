@@ -26,8 +26,11 @@ Example styles:
 
 ## Installation
 
+NPM / Yarn
 ```bash
 npm i -D storybook-custom-theme-switcher
+
+yarn add storybook-custom-theme-switcher -D
 ```
 
 Add the addon to `.storybook/main.js`:
@@ -43,17 +46,31 @@ Add parameters options to `.storybook/preview.js`:
 ```js
 export const parameters = {
   theme: {
-    selector: "body (or your selector with data attribute)",
-    dataAttr: "data-theme (or your data attribute)",
-    // Put all theme options in themeOptions. You can name customeTheme as you want.
+    selector: "body",
+    dataAttr: "data-theme",
+    /* Put all theme options in
+    themeOptions. You can name
+    customeTheme as you want.*/
     themeOptions: {
-      customeTheme1: "theme1 (or your name of light theme)",
-      customeTheme2: "theme2 (or your name of dark theme)",
-      customeTheme3: "theme3 (or your name of dark theme)",
+      customeTheme1: "theme1",
+      customeTheme2: "theme2",
+      customeTheme3: "theme3",
     },
+    defaultTheme: "theme1",
   },
 };
 ```
+
+## Parameters
+
+The `theme` parameter accept an array of `Theme` object.
+
+Each `Theme` is an object with the following properties:
+
+* `selector` (`string` - default: 'body'): Target element to which the data Attribute will be applied.
+* `dataAttr` (`string` - default: 'data-theme'): The data attribute that will be applied.
+* `themeOptions` (`{ [key: string]: string }` - default: {}): The themes you want to use as an `Object`.
+* `defaultTheme` (`string` - default: ''): The name of the theme that should be used on default.
 
 ## Usage
 

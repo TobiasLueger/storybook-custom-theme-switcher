@@ -3,6 +3,7 @@ export const parameters = {
     selector: "body",
     dataAttr: "data-theme",
     themeOptions: {
-    }
+    },
+    defaultTheme: "",
   },
 };

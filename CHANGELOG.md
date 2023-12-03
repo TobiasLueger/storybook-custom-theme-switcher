@@ -1,3 +1,29 @@
+# v0.0.6 (So Dec 03 2023)
+
+#### Pushed to `main`
+
+- moved peerDependencies in devDependencies
+- added a default option to params
+- updated README.md
+
+#### Authors: 1
+
+- Tobias Lüger ([@TobiasLueger](https://github.com/TobiasLueger))
+
+# v0.0.5 (Fr Nov 24 2023)
+
+#### Pushed to `main`
+
+- Production ready build
+- removed default themeOptions
+- add default text for theme switch button
+- add preview button.css styles
+- changed README
+
+#### Authors: 1
+
+- Tobias Lüger ([@TobiasLueger](https://github.com/TobiasLueger))
+
 # v0.0.1 (Fr Nov 24 2023)
 
 #### ⚠️ Pushed to `main`

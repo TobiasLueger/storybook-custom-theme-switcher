@@ -1,16 +1,16 @@
-:root [data-theme="theme1"] {
-  --white: #000;
-  --black: #fff;
+:root {
+  --white: #376a20;
+  --black: #f0f3e8;
 }
 
-:root [data-theme="theme2"] {
+:root [data-theme="first"] {
+  --white: #031e49;
+  --black: #d3e3fd;
+}
+
+:root [data-theme="second"] {
   --white: #fff;
-  --black: #000;
-}
-
-:root [data-theme="theme3"] {
-  --white: #696969;
-  --black: #700404;
+  --black: #0842a0;
 }
 
 .storybook-button {
@@ -23,7 +23,6 @@
   line-height: 1;
   color: var(--white);
   background-color: var(--black);
-  border: 2px solid var(--white);
   font-size: 14px;
   padding: 11px 20px;
 }

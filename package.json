@@ -41,7 +41,7 @@
     "start": "concurrently \"yarn build:watch\" \"yarn storybook -- --no-manager-cache --quiet\"",
     "build-storybook": "build-storybook",
     "prerelease": "zx scripts/prepublish-checks.mjs",
-    "release": "yarn build && auto shipit",
+    "release": "yarn build && np",
     "eject-ts": "zx scripts/eject-typescript.mjs"
   },
   "devDependencies": {
@@ -52,6 +52,11 @@
     "@babel/preset-typescript": "^7.13.0",
     "@storybook/addon-essentials": "^6.3.6",
     "@storybook/react": "^6.3.6",
+    "@storybook/addons": "^6.3.6",
+    "@storybook/api": "^6.3.6",
+    "@storybook/components": "^6.3.6",
+    "@storybook/core-events": "^6.3.6",
+    "@storybook/theming": "^6.3.6",
     "auto": "^10.3.0",
     "babel-loader": "^8.1.0",
     "boxen": "^5.0.1",
@@ -66,11 +71,6 @@
     "zx": "^1.14.1"
   },
   "peerDependencies": {
-    "@storybook/addons": "^6.3.6",
-    "@storybook/api": "^6.3.6",
-    "@storybook/components": "^6.3.6",
-    "@storybook/core-events": "^6.3.6",
-    "@storybook/theming": "^6.3.6",
     "react": "^16.8.0 || ^17.0.0 || ^18.x",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.x"
   },

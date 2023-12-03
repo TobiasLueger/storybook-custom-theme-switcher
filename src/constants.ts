@@ -7,5 +7,6 @@ export const DEFAULT_PARAMS = {
   "selector": "body",
   "dataAttr": "data-theme",
   "themeOptions": {
-  }
+  },
+  "defaultTheme": ""
 }

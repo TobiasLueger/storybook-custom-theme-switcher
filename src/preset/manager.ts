@@ -6,7 +6,7 @@ import { ThemeSwitcher } from "../theme/ThemeSwitcher";
 addons.register(ADDON_ID, () => {
   addons.add(TOOL_ID, {
     type: types.TOOL,
-    title: "Theme switcher",
+    title: "storybook-custom-theme-switcher",
     match: ({ viewMode }) => !!(viewMode && viewMode.match(/^(story|docs)$/)),
     render: ThemeSwitcher,
   });
