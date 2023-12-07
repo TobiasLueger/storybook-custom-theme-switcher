@@ -74,4 +74,4 @@ Each `Theme` is an object with the following properties:
 
 ## Usage
 
-Click on the new theme popup in the toolbar to switch between theme modes.
+Click on the new theme popup in the toolbar in storybook to switch between your themes.

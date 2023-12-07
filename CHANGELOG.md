@@ -1,4 +1,14 @@
-# v0.0.8 (So Dec 07 2023)
+# v0.0.9 (Do Dec 07 2023)
+
+#### Pushed to `main`
+
+- added README
+
+#### Authors: 1
+
+- Tobias Lüger ([@TobiasLueger](https://github.com/TobiasLueger))
+
+# v0.0.8 (Do Dec 07 2023)
 
 #### Pushed to `main`
 
@@ -8,7 +18,7 @@
 
 - Tobias Lüger ([@TobiasLueger](https://github.com/TobiasLueger))
 
-# v0.0.7 (So Dec 07 2023)
+# v0.0.7 (Do Dec 07 2023)
 
 #### Pushed to `main`
 
