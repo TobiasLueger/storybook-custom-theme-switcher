@@ -1,3 +1,13 @@
+# v0.0.7 (So Dec 07 2023)
+
+#### Pushed to `main`
+
+- fixed switch between the default and the set themes
+
+#### Authors: 1
+
+- Tobias Lüger ([@TobiasLueger](https://github.com/TobiasLueger))
+
 # v0.0.6 (So Dec 03 2023)
 
 #### Pushed to `main`

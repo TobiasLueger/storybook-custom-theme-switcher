@@ -3,6 +3,9 @@ export const parameters = {
     selector: "body",
     dataAttr: "data-theme",
     themeOptions: {
+      theme1:"first",
+      theme2:"second",
+
     },
     defaultTheme: "",
   },
