@@ -1,3 +1,13 @@
+# v0.0.8 (So Dec 07 2023)
+
+#### Pushed to `main`
+
+- removed preview variables
+
+#### Authors: 1
+
+- Tobias Lüger ([@TobiasLueger](https://github.com/TobiasLueger))
+
 # v0.0.7 (So Dec 07 2023)
 
 #### Pushed to `main`
