@@ -13,8 +13,8 @@ export const ThemeSwitcher = () => {
   const [isDefaultSet, setIsDefaultSet] = useState(false);
 
   const handleTheme = (theme: Theme, themeOption:string) => {
-      useTheme(theme, themeOption, selectedTheme);
-      setSelectedTheme(`${theme.themeOptions[themeOption]}`);
+    useTheme(theme, themeOption);
+    setSelectedTheme(`${theme.themeOptions[themeOption] || "Default Theme"}`);
   }
 
   return (
@@ -37,7 +37,7 @@ export const ThemeSwitcher = () => {
                         };
                       return (
                           <IconButton key={key} title="Change theme mode" onClick={() => handleTheme(theme, themeOption)} style={{textAlign: "start", backgroundColor: "white", color:"black", fontWeight:"normal"}}>
-                              {theme.themeOptions[themeOption]}
+                            {theme.themeOptions[themeOption] || "☀️ Default Theme"}
                           </IconButton>
                       );
                   })}

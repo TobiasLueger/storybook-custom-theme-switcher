@@ -1,3 +1,16 @@
+# v0.0.10 (Do Apr 04 2024)
+
+#### Pushed to `main`
+
+- updated README
+- fixed default theme variant
+- removed unused code
+- updated node version to v16.20.2
+
+#### Authors: 1
+
+- Tobias Lüger ([@TobiasLueger](https://github.com/TobiasLueger))
+
 # v0.0.9 (Do Dec 07 2023)
 
 #### Pushed to `main`

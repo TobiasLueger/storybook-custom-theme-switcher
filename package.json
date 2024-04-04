@@ -95,6 +95,6 @@
     "icon": "./paint-roller-fill.png"
   },
   "engines": {
-    "node": "~14.21.3"
+    "node": "~16.20.2"
   }
 }

@@ -10,3 +10,15 @@ export const DEFAULT_PARAMS = {
   },
   "defaultTheme": ""
 }
+
+/* TEST PARAMS */
+// export const DEFAULT_PARAMS = {
+//   "selector": "body",
+//   "dataAttr": "data-theme",
+//   "themeOptions": {
+//     "default": "",
+//     "first": "first",
+//     "second": "second",
+//   },
+//   "defaultTheme": ""
+// }

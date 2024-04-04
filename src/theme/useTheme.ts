@@ -9,7 +9,7 @@ export const getIframe = (selector: string): HTMLElement => {
   return iframe.contentDocument?.querySelector(selector) as HTMLElement;
 };
 
-export const useTheme = (theme: Theme, themeOption: string, currentTheme: string) => {
+export const useTheme = (theme: Theme, themeOption: string) => {
     const iframe = getIframe(theme.selector);
 
     //Todo: remove existing currentTheme from Attribute and push new themeOption to Attribute

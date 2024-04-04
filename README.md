@@ -52,11 +52,12 @@ export const parameters = {
     themeOptions. You can name
     customeTheme as you want.*/
     themeOptions: {
+      default: "", // empty string for option to get back to default theme 
       customeTheme1: "theme1",
       customeTheme2: "theme2",
       customeTheme3: "theme3",
     },
-    defaultTheme: "theme1",
+    defaultTheme: "",
   },
 };
 ```
